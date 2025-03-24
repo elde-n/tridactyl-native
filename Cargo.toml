@@ -4,7 +4,7 @@ readme = "README.md"
 description = "An unoffical native client for the tridactyl web-browser extension"
 repository = "https://github.com/elde-n/tridactyl-native"
 
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "GPL-3.0-only"
 
