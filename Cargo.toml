@@ -1,0 +1,22 @@
+[package]
+name = "tridactyl-native"
+readme = "README.md"
+description = "An unoffical native client for the tridactyl web-browser extension"
+repository = "https://github.com/elde-n/tridactyl-native"
+
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-only"
+
+[[bin]]
+name = "tridactyl"
+path = "src/main.rs"
+
+[dependencies]
+base64 = "0.22.1"
+dirs = "6.0.0"
+log = "0.4.26"
+regex = "1.11.1"
+serde_json = "1.0.140"
+simplelog = "0.12.2"
+tempfile = "3.19.0"
