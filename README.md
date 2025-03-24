@@ -3,6 +3,6 @@ An unofficial native client for the tridactyl web-browser extension written in r
 
 # installation
 ```sh
-cargo install tridactyl-native
-tridactyl-native --setup
+TMPDIR=~/.cache/cargo/ cargo install tridactyl-native
+tridactyl --setup
 ```
