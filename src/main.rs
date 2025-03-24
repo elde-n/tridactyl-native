@@ -199,6 +199,7 @@ fn main() {
 
     let log_file = File::options()
         .append(true)
+        .create(true)
         .open(log_path.join("tridactyl.log"))
         .unwrap();
 
